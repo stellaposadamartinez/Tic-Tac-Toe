@@ -46,7 +46,48 @@ function setup() {
 
 function eingabe(){
   let i = input.value();
+
+  textSize(50);
+  if(input.value() == 'A1x') {
+    text('x', 35, 60);
+  } else if(input.value() == 'A2x') {
+    text('x', 35, 160); 
+  } else if(input.value() == 'A3x') {
+    text('x', 35, 260); 
+  } else if(input.value() == 'B1x') {
+    text('x', 135, 60); 
+  } else if(input.value() == 'B2x') {
+    text('x', 135, 160); 
+  } else if(input.value() == 'B3x') {
+    text('x', 135, 260); 
+  } else if(input.value() == 'C1x') {
+    text('x', 235, 60); 
+  } else if(input.value() == 'C2x') {
+    text('x', 235, 160); 
+  } else if(input.value() == 'C3x') {
+    text('x', 235, 260); 
+  } else if(input.value() == 'A1o') {
+    text('o', 35, 60);
+  } else if(input.value() == 'A2o') {
+    text('o', 35, 160);
+  } else if(input.value() == 'A3o') {
+    text('o', 35, 260);
+  } else if(input.value() == 'B1o') {
+    text('o', 135, 60);
+  } else if(input.value() == 'B2o') {
+    text('o', 135, 160);
+  } else if(input.value() == 'B3o') {
+    text('o', 135, 260);
+  } else if(input.value() == 'C1o') {
+    text('o', 235, 60);
+  } else if(input.value() == 'C2o') {
+    text('o', 235, 160);
+  } else if(input.value() == 'C3o') {
+    text('o', 235, 260);
+  }
+
+  /*text(input.value(), 50, 50);
   print(input.value());
   print('row: ', int(i[1]) - 1);
-  print('column: ', int(i[0]) - 1);
+  print('column: ', int(i[0]) - 1);*/
 }
